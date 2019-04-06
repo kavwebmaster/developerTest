@@ -1,0 +1,11 @@
+{
+  "require-dev": {
+    "symfony/console": "4.1.*",
+    "symfony/var-dumper": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Project\\Helpers\\": "./../local/php_interface/classes/Helpers/"
+    }
+  }
+}
